@@ -1,10 +1,5 @@
 ## Show Image
 
-
-
-
-
-
 Take a look at the UI of the App:
 
 ![Show Image](../assets/show-image.png)
