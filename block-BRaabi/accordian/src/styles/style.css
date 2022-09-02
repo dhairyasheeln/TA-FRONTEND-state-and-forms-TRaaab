@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*CSS Resets*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*Generalized*/
+
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 32px 0;;
+}
+
+/*Colors*/
+:root{
+    --brown:#fff7e6;
+    --light-brown:#fff7e6;
+    --green:#80ffd4;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+.faq-outer{
+    margin:50px 0;
+}
+.question{
+    background-color: var(--brown);
+    padding: 16px;
+    font-size: 30px;
+    margin-bottom:10px;
+    font-weight: 500;
+}
+
+
+
+.active{
+    background-color: var(--green);
+    padding: 16px;
+    font-size: 30px;
+    margin-bottom:10px;
+    font-weight: 500;
+}
+
+.answer{
+    font-size: 20px;
+
+}
+
