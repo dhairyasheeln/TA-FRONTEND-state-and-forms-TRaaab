@@ -2,6 +2,10 @@
 
 Take a look at the UI of the App:
 
+
+
+
+
 ![Accordion FAQ](../assets/accordion.png)
 
 - Use the data (questions) given below in a closable accordion
