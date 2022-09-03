@@ -2,6 +2,10 @@
 
 Create a movie list app
 
+
+
+
+
 - Display a list of movies using the `data.json` file
 - The list of movie will display an image, title, released date
 - When you hover over a single movie it will show two button `More Info`
